@@ -1,0 +1,5 @@
+{
+  "port": 4000,
+  "jwtSecret": "pwa-first",
+  "pgString": "postgres://postgres:qwe123ewq321@localhost:5432/discards"
+}

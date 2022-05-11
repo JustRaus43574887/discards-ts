@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: #ff5151;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+p {
+  margin: 0;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 13px;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  background: #ff5151;
+  text-transform: uppercase;
+  color: white;
+}
+
+.btn:hover {
+  background: #ff6565;
+}
+
+.btn:active {
+  background: #ff6565;
+}
+
+.btn:disabled {
+  background: #ffa6a6;
+}
+
+.btn-shadow {
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.btn-outlined {
+  border: 2px solid #ff5151;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: #ff5151;
+}
+
+.btn-outlined:hover {
+  border-color: #ff6565;
+  color: #ff6565;
+  background: transparent;
+}
+
+.btn-outlined:active {
+  border-color: #ff6565;
+  color: #ff6565;
+  background: transparent;
+}
+
+.btn-outlined:disabled {
+  border-color: #d4d4d4;
+  color: #d4d4d4;
+}
+
+.btn-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background: #ff5151;
+  border: 0;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.12);
+}
+
+.btn-circle:hover {
+  background-color: #ff6565;
+}
+
+.btn-circle:active {
+  background-color: #ff6565;
+}
+
+.btn-circle:disabled {
+  background-color: #ffa6a6;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrap {
+  color: #5b5b5b;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.scroll-wrap::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-wrap {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
